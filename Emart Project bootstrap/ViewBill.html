@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+ 
+ 
+  </head>
+  <style>
+.height {
+    min-height: 200px;
+}
+
+.icon {
+    font-size: 47px;
+    color: #5CB85C;
+}
+
+.iconbig {
+    font-size: 77px;
+    color: #5CB85C;
+}
+
+.table > tbody > tr > .emptyrow {
+    border-top: none;
+}
+
+.table > thead > tr > .emptyrow {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .highrow {
+    border-top: 3px solid;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #3380FF ;
+   color: white;
+   text-align: center;
+}
+</style>
+  <body>
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-right-side">
+ <a class="navbar-brand" href="#">
+ 
+    <img src="https://pbs.twimg.com/profile_images/1187207298973929474/yBzq4Kme_400x400.png" alt="Logo" style="width:40px;">
+  </a>
+   <a class="navbar-brand" href="#">Emart</a> 
+   <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+  <ul class="navbar-nav  ml-auto">
+  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse float-right" id="collapsibleNavbar">
+    <li class="nav-item">
+        <a class="nav-link" href="#"></li>
+          <li class="navbar-right">Menu Items</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"></li>
+          <li class="navbar-right">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"></li>
+          <li class="navbar-right">SignUp</a>
+    </li>
+  </ul>
+  </nav>
+
+  <div class="container">
+   
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card ">
+                <div class="card-header">
+                    <h3 class="text-xs-center"><strong>Order summary</strong></h3>
+                </div>
+                <div class="card-block">
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <td><strong>Item Name</strong></td>
+                                    <td class="text-xs-center"><strong>Item Price</strong></td>
+                                    <td class="text-xs-center"><strong>Item Quantity</strong></td>
+                                    <td class="text-xs-right"><strong>Total</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Adidas</td>
+                                    <td class="text-xs-center">900</td>
+                                    <td class="text-xs-center">1</td>
+                                    <td class="text-xs-right">900</td>
+                                </tr>
+                                <tr>
+                                    <td>Denim Jean</td>
+                                    <td class="text-xs-center">1200.00</td>
+                                    <td class="text-xs-center">1</td>
+                                    <td class="text-xs-right">1200</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="highrow"></td>
+                                    <td class="highrow"></td>
+                                    <td class="highrow text-xs-center"><strong>Subtotal</strong></td>
+                                    <td class="highrow text-xs-right">Rs.2100.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="emptyrow"></td>
+                                    <td class="emptyrow"></td>
+                                    <td class="emptyrow text-xs-center"><strong>Shipping</strong></td>
+                                    <td class="emptyrow text-xs-right">Rs.150</td>
+                                </tr>
+                                <tr>
+                                    <td class="emptyrow"><i class="fa fa-barcode iconbig"></i></td>
+                                    <td class="emptyrow"></td>
+                                    <td class="emptyrow text-xs-center"><strong>Total</strong></td>
+                                    <td class="emptyrow text-xs-right">Rs.2250.00</td>
+                                </tr>
+                           </tbody>
+
+                       </table>
+
+<tr>
+      <td class="emptyrow"></td>
+                                   <td class="emptyrow"></td>
+                                   <button class="btn btn-warning btn-lg btn-block">Proceed to pay</button>
+</tr>  
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+<div class="footer">
+  <p> 2020 @Copyright</p>
+</div>
+
+</html>
